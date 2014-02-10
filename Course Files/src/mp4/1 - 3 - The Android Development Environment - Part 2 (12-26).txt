@@ -1,0 +1,301 @@
+Hi I'm Adam Porter and this is Programming
+Applications for Android Handheld Systems.
+Eclipse comes with a debugger that gives
+developers powerful
+tools for examining the internal state of
+a running application.
+And this can be useful of course when you
+have a
+bug in your application and you're not
+sure exactly what's causing it.
+So lets use the Eclipse debugger
+to examine an application.
+Here I'm showing a simple Android
+application.
+That I've named The Answer.
+This app is supposed to show you
+the answer to life, the universe, and
+everything.
+Which, as The Hitchhiker's Guide to the
+Universe tells us, is 42.
+As you can see however, instead of
+displaying
+42, this app says, we may never know.
+So, clearly, there's a bug in here
+somewhere.
+Let's use the debugger to track that bug
+down.
+So, here we are in Eclipse.
+First, I'll open up the Answer application
+and show you its source code.
+Now, the truth is, that this is a pretty
+silly program.
+And the bug will be fairly obvious.
+Once you've looked at the code.
+But my goal here is to show you the
+debugger, so just
+between us, let's pretend that we don't
+really know what the bug is.
+Now you can see that there's an array
+called answers.
+Through which the program will search,
+looking for the answer 42.
+There's the on create method.
+That is the starting point when the class
+is executed.
+Inside On Create there's a call to a
+method called Find Answer.
+And Find Answer is listed down below.
+Now, Find Answer is supposed to search the
+answers
+array and return the number 42 if it's in
+there, or minus one if it's not.
+The program stores Find Answers return
+value.
+And then uses it to compute a string
+called Output.
+And then finally the program displays the
+Output string.
+So, since I don't know were the bug is,
+I'll,
+I decide to use the debugger to debug the
+program.
+And the first thing I'll do then
+is to set a break point.
+That stops the program when it enters the
+Oncreate method.
+Now instead of running the program, I'll
+debug it by right clicking the project
+name, selecting debug as, and then
+selecting Android application.
+I'll click okay.
+And when the application reaches Oncreate,
+it stops.
+And shows me the debug view with the
+current line highlighted
+in the source code.
+Now, at this point, I'll step through the
+code line by line, examining the program
+state.
+I step forward, I select Step Over from
+the tool bar, which advances the program
+one line.
+I'm now at the line that calls Find Answer
+and stores the return result in the
+variable val.
+Once I step over this line, you will see
+that
+the value of the variable val is now minus
+ten.
+Which is already a problem.
+It should have been 42.
+So the problem is certainly down there in
+the Find Answer method.
+So let's look more closely at Find Answer.
+And to do that, I'll put a break
+point at Find Answer, and then restart the
+application.
+Now this time, when
+the application
+stops at On
+Create.
+I'll hit the Step Over button which will
+let the
+application continue executing until the
+find answer break point is hit.
+I can step forward in this method and
+examine the values
+of variables to determine that 42 is
+indeed in the array.
+And that Find Answer sees it but considers
+it the wrong answer.
+Anyway, as I'm sure you figured out long
+ago,
+the problem is that I'm accidentally
+checking for not equals.
+Rather than for equals equals.
+So I'll fix that and start over, and this
+time we'll see the correct behavior.
+Now, just to make sure, let's go back and
+fire up the answer.
+And yes, the answer to the life, the
+universe, and everything, is again 42.
+Now I think debuggers help most when you
+have a reasonably good idea of
+where your problem is, so you can focus in
+on a few lines of code.
+But in many other situations that kind of
+low level,
+instruction by instruction examination
+that debuggers are so good at supporting.
+Is less helpful.
+Instead it may be easier to use more
+general tools
+that instrument your system and let you
+monitor its behavior as it runs over time.
+Android provides a number of these
+monitoring tools,
+in its Dalvik Debug Monitor Service, or
+DDMS.
+Today I'll talk about four of these tools.
+A File Explorer for viewing a device's
+file system.
+Logcat, for logging and displaying run
+time events.
+Traceview for displaying method execution
+traces.
+And Hierarchyview for examining user
+interface layouts.
+Let's look at these tools and see how you
+access them from Eclipse.
+[BLANK AUDIO] First,
+let's open the DDMS perspective which
+exposes a number of
+panes and buttons who are accessing the
+different DDMS tools.
+We now see device pane that shows the
+devices that are currently connected.
+And shows a list of debuggable processes
+running on these devices.
+The first tool we'll look at is the File
+Explorer.
+This view shows, shows you the files on
+your file system.
+For example, here we see that this device
+has a slash data, slash data directory.
+In which applications can store their
+persistent data.
+This device also has an external memory
+card.
+And there's some directories there for
+storing music and movies and other things.
+The next pane I'll talk about shows the
+Logcat view.
+Android logs many events by default.
+That is as the software runs, it spits
+out information about the things that are
+happening
+on the device, and this information is
+stored,
+it can be displayed in the Logcat view.
+Android also provides methods that
+let developers log their own information.
+Another DDMS tool is Traceview.
+Traceview allows you to trace the methods
+that your application calls.
+Let's do this for the answer application
+that I showed earlier.
+So this is the source code for the
+application.
+And to simplify my demonstration, I'll
+first put
+a break point in the On Create method.
+And now I'll start debugging the
+application.
+Now, as you can see, it stopped at the
+break point.
+And now, I want to start profiling.
+So I'll open the DDMS View.
+And click on the button that says
+Start Profiling.
+And now, I'll
+return back to the debug view and
+resume the application.
+I'll let the program run for awhile and
+now I'll return to the DDMS
+view and press the same button as before,
+this time to stop the profiling.
+At this point, Traceview will process the
+trace information and show it to me
+graphically.
+The Traceview display shows two panels.
+One is a timeline view showing each
+method, each method culls sequence and
+duration,
+The other is the profile view, which show
+statistics and other information about
+each culled method.
+Let's look for our old friend Find Answer.
+When I click on Find Answer in the profile
+view I
+can see where it was called up in the
+Timeline view.
+And now I can zoom in on the
+timeline to see more information and
+surrounding context.
+[BLANK_AUDIO]
+And if I want to be more precise in my
+profiling,
+Android also allows me to insert
+statements directly into the program.
+That enable targeted tracing, and doing
+this requires
+that you set some permissions, however,
+for your application.
+And we haven't talked about permissions
+yet, but
+we'll talk about them in a later lesson.
+And finally on my Mac if I Cmd+Click on
+find answer in the Profile pane,
+the clips will take me to the file
+containing that method.
+The last tool I'll talk about today is the
+UI hierarchy view.
+This tool allows you to analyze your
+application's user interface and
+understand how it's organized.
+For example, let's look again at the Hello
+Android application.
+First, let's run the Hello Android
+application.
+And once it's up and running.
+We'll go to the Menu bar and select
+Window.
+Then select Open Perspective.
+Then select Hierarchy View.
+Now if you don't see it, try selecting
+Other and searching there instead.
+Now once the Hierarchy Viewer starts,
+we'll go
+to the Window panel and double click the
+entry
+corresponding to the Hello Android
+application, it's the
+one that has the words, Hello Android in
+it.
+Double clicking on this entry will bring
+up
+a graphical representation of Hello
+Android's user interface,
+which like most user interfaces is
+organized in a hierarchy.
+For instance, there's an outermost
+application
+window, which holds the entire user
+interface.
+It contains two children, a title bar,
+and the large rectangular body of the
+application.
+Each of these in turn contain further
+elements.
+Here, I'll click on the outermost window.
+And I can in, inspect detailed information
+about that window.
+Such as its layout parameters which, for
+example,
+shows how big the window is in pixels.
+The region occupied by each element is
+shown here
+in the layout view, in the bottom right
+corner.
+And the same information is also available
+for the title bar, and
+the same for the body, and the text to you
+that it contains.
+Now that's all for today's lesson on the
+Android development environment.
+Please join me next time when we'll
+discuss the fundamental building blocks of
+Android applications.
+Thank you.
+
