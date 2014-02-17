@@ -7,7 +7,7 @@
     android:baselineAligned="false">
 
     <fragment
-        android:id="@+id/friends_frag"
+        android:id="@+id/friends_frag" 
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"

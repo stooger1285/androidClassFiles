@@ -31,8 +31,6 @@ public class MainActivity extends Activity implements
 			FragmentTransaction fragmentTransaction = fragmentManager
 					.beginTransaction();
 			fragmentTransaction.add(R.id.fragment_container, mFriendsFragment);
-			fragmentTransaction.add(R.id.friends_frag, mFriendsFragment);
-			fragmentTransaction.add(R.id.feed_frag, mFeedFragment);
 			fragmentTransaction.commit();			
 			
 
