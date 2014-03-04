@@ -13,65 +13,105 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MainActivity" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1390459012375_5" label="Google Play" name="Google Play">
-<item elementID="=google-play-services_lib" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/google-play-services_lib" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1391055231809_8" label="Course-Week2" name="Course-Week2">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ActivityLab" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MapLocation" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ActivityLabTest" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MapLocationFromContactsActivity" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppFundamentalsVideoSourceExamples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MapLocationFromContactsActivity" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sandboxWeek2" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392004273834_16" label="Course week 3" name="Course week 3">
-<item elementID="=BoomActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BoomActivity" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentStaticConfigLayout" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentDynamicLayoutWithActionBar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentDynamicLayout" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BoomUserActivity" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentProgrammaticLayout" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DangerousApp" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentStaticLayout" type="4"/>
-<item elementID="=DangerousApp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TitlesListActivity" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginScreen" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyBrowser" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentDynamicLayout" type="4"/>
-<item elementID="=BoomUserActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TitlesListActivity" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392404552487_17" label="Course week 3-Labs" name="Course week 3-Labs">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/IntentsLabTest" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/IntentsLab" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentsLabTestTablet" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentsLab" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentsLabTestPhone" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/IntentsLab" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/IntentsLabTest" type="4"/>
-<item elementID="=PermissionsLab" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PermissionsLabTest" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PermissionsLab" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392666135225_21" label="Course Week 4" name="Course Week 4">
-<item elementID="=Course Files" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=AlertDialogActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=AutoCompleteActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ButtonActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=CheckBoxActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=DatePickerActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=GalleryActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=GoogleMapActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=GridLayoutActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=HelloAndroidWithMenuActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=LinearLayoutActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ListViewActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=RadioGroupActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=RatingsBarActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=RelativeLayoutActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=SamplerActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=SpinnerActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=TabLayoutActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=TableLayoutActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=TimePickerActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ToggleButtonActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=WebViewActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SamplerActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GridLayoutActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AlertDialogActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GalleryActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CheckBoxActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListViewActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FragmentDynamicLayoutWithActionBar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ButtonActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LinearLayoutActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpinnerActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RelativeLayoutActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DatePickerActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GoogleMapActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HelloAndroidWithMenuActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WebViewActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TableLayoutActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RatingsBarActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ToggleButtonActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TabLayoutActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TimePickerActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RadioGroupActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AutoCompleteActivity" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392666734614_24" label="Course Week 4 Lab" name="Course Week 4 Lab">
-<item elementID="=UILabs" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=UILabsTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/UILabs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/UILabsTest" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1393704477163_23" label="Course Week 5" name="Course Week 5">
+<item elementID="=Course Files" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationStatusBarActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationStatusBarActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationStatusBarWithCustomViewActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationStatusBarWithCustomViewActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationToastActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationToastActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationToastActivity3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CompoundBroadcast" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CompoundOrderedBroadcast" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CompoundOrderedBroadcastWithResultReceiver" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SingleBroadcastDynamic" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SimpleBroadcastStatic" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=StickyIntentBroadcastReceiverActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AsyncTaskActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HandlerMessagesActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HandlerRunnableActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NoThreadingExample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SimpleThreadingExample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SimpleThreadingExample2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SimpleThreadingViewPostActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingAndroidHttpClientActivity1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingAndroidHttpClientActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingSocketsActivity1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingSocketsActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingURLActivity1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingURLActivity2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AlarmActivityExample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NetworkingFormatsExample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1393704489091_24" label="Course Week 5 Labs" name="Course Week 5 Labs">
+<item elementID="=NotificationsLab" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationsLabTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1393707845091_25" label="ExamplesToSave" name="ExamplesToSave">
+<item elementID="=HandlerMessagesActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HandlerRunnableActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AsyncTaskActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NotificationStatusBarWithCustomViewActivity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1390367454668_0" label="Window Working Set" name="Aggregate for window 1390367454668"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1390460072014_5" label="Window Working Set" name="Aggregate for window 1390460072014"/>
@@ -86,6 +126,8 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392403666154_15" label="Window Working Set" name="Aggregate for window 1392403666154"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392406836740_18" label="Window Working Set" name="Aggregate for window 1392406836740"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1392660919340_19" label="Window Working Set" name="Aggregate for window 1392660919340"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1393704406866_22" label="Window Working Set" name="Aggregate for window 1393704406866"/>
+<mruList name="Course Week 5 Labs"/>
 <mruList name="Course week 3"/>
 <mruList name="Course-Week 1"/>
 <mruList name="Google Play"/>
